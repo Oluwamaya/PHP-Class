@@ -71,6 +71,7 @@ $dimention = [
 ?>
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -111,6 +112,8 @@ $dimention = [
         <h3 class="items-center flex">    Register User</h3>
         <input type="text" placeholder="Enter ur username" class="form-control my-2 " name="username"><br>
         <input type="email" class="form-control my-2" placeholder="Enter yout email" name="email"><br>
+        <input type="password" placeholder="password" name="password">
+        <input type="password" placeholder="c_password" name="c_password">
         <button type="submit" name="submitme" class="btn btn-primary">click me</button>
 
        </form>
@@ -142,6 +145,7 @@ $dimention = [
                 </tr>
                 <?php } ?>
 
+            <button class="" (click)="maya">press Me</button>
         </tbody>
        </table>
 

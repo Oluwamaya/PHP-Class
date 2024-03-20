@@ -1,6 +1,7 @@
 <?php 
 // Get the ID from the query string
 $id = $_GET['id'];
+
 echo "Editing ID: $id <br>";
 
 include("database/connectdb.php");
