@@ -1,6 +1,6 @@
 <?php
 
-include("database/connectdb.php");
+// include("database/connectdb.php");
 
 
 if (empty($_POST['username'])) {

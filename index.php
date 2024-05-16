@@ -1,6 +1,6 @@
 <?php
 
-include("database/connectdb.php");
+// include("database/connectdb.php");
 echo "welcome to php class <br>" ;
 $text = "wy are we having errors <br>" ;
 echo($text);
@@ -9,8 +9,8 @@ $allName = ["Daniel", "Sammy", "Vic"];
 $myAge = 10 ;
 
 $data = "SELECT * FROM phpclass";
-$rez = mysqli_query($conn, $data);
-$user = mysqli_fetch_all($rez, MYSQLI_ASSOC);
+// $rez = mysqli_query($conn, $data);
+// $user = mysqli_fetch_all($rez, MYSQLI_ASSOC);
 
 
 print_r($user);
