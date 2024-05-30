@@ -110,10 +110,11 @@ $dimention = [
        <center>
        <form class="p-3 rounded mt-3 mx-auto shadow border w-50 " action="data.php" method="POST">
         <h3 class="items-center flex">    Register User</h3>
-        <input type="text" placeholder="Enter ur username" class="form-control my-2 " name="username"><br>
+        <input type="text" placeholder="Enter ur firstname" class="form-control my-2 " name="firstname"><br>
+        <input type="text" placeholder="Enter ur lastname" class="form-control my-2 " name="lastname"><br>
         <input type="email" class="form-control my-2" placeholder="Enter yout email" name="email"><br>
-        <input type="password" placeholder="password" name="password">
-        <input type="password" placeholder="c_password" name="c_password">
+        <input type="password" class="form-control" placeholder="password" name="password"><br>
+        <input type="password" class="form-control"  placeholder="c_password" name="c_password"><br>
         <button type="submit" name="submitme" class="btn btn-primary">click me</button>
 
        </form>
